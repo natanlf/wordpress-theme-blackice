@@ -1,4 +1,8 @@
 <?php
+//Incluindo os arquivos da TGM
+require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
+require_once get_template_directory() . '/inc/required-plugins.php';
+
 // Requerendo o arquivo do Customizer
 require get_template_directory() . '/inc/customizer.php';
 
@@ -107,4 +111,4 @@ function wpblackice_sidebars(){
 		)
 	);	
 }
-?> 
+?>
