@@ -5,7 +5,7 @@
 				<!--Colocamos o nome da setting que criamos, assim o valor que informarmos será mostrado na tela-->
                 <p><?php echo get_theme_mod('set_copyright') ?></p>
             </div>
- 			<div class="menu col-sm-5 col-8 text-right">Info</div>
+ 			<div class="menu col-sm-5 col-8 text-right"></div>
 		</div>
 	</div>
 	</footer>
