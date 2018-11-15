@@ -38,9 +38,9 @@ footer{background: #F5F5F1; color: black;}
 .services{ background: #ffffff; padding: 25px 0; color: #fefefe; color: black}
 .services h2{ text-align: center; color: #221F1F; text-transform: uppercase; font-size: 38px; }
 .services .widget-wrapper{ text-align: center; }
-.services .widget-wrapper h2{ text-transform: uppercase; font-size: 1.2em; color: #f6e497; font-weight: 200; }
+.services .widget-wrapper h2{ text-transform: uppercase; font-size: 1.2em; color: #3d3c37; font-weight: bold; }
 .services .widget-wrapper:first-child{ padding: 15px 0; }
-.services .widget-wrapper > img{ border: 15px solid #FFF; }
+.services .widget-wrapper > img{ border: 10px solid #3d3c37; border-radius: 5px; }
 
  /* Middle Area */
 .middle-area{ padding: 25px 0; }
