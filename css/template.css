@@ -18,11 +18,12 @@ footer{background: #F5F5F1; color: black;}
 .social-media-icons ul li{ list-style: none; display: inline; margin: 0 5px 0; }
 
 /* Header - Main Menu */
-.menu-area{background: #F5F5F1; color: black; padding: 15px 0;}
+.menu-area{background: #F5F5F1; color: black; padding: 15px 0; }
 .main-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 28px; }
 .main-menu ul li{ display: inline;  margin: 0 50px 0 0;}
 .main-menu ul li:last-child{ margin: 0; }
 .main-menu ul li a{ text-transform: uppercase; color: #4c1b1b; text-decoration: none;}
+.main-menu ul li a:hover{ color: #137ee2; }
 .main-menu ul  li.current-menu-item a{ color:#E50914; }
 
 /*Content*/
@@ -54,12 +55,14 @@ footer{background: #F5F5F1; color: black;}
 
 /* Middle Area - Featured News */
 .home .news h1{ color: #F7F7F7; text-transform: uppercase; font-size: 38px; font-weight: bold; }
-.home .news .format-image h2, .home .news .format-video h2, .home .news .format-standard h2 { color: #4285F4; background: transparent; display: inline-block; padding: 10px 0 5px; font-weight: bold; } 
-.home .news .featured h2{ font-size: 35px; }
-.home .news .secondary h2{ font-size: 20px; }
+.home .news .format-image h2, .home .news .format-video h2, .home .news .format-standard h2 { color: #4285F4; background: transparent; display: inline-block; padding: 10px 0 5px; font-weight: bold; text-shadow: 2px 2px 9px rgba(78,78,78,0.56); } 
+.home .news .featured h2{ font-size: 35px; text-shadow: 2px 2px 9px rgba(78,78,78,0.56); }
+.home .news .secondary h2{ font-size: 20px; text-shadow: 2px 2px 9px rgba(78,78,78,0.56); }
 .home .news .meta-info p{ font-weight: bold; margin-bottom: 0; }
 .home .news span, .news span a{ color: #4285F4; font-weight: normal; margin: 0 2px 0 0; }
 .home .news article h2 a{ color: white; font-weight: bold }
+.home .news article {border: 1px solid; border-radius: 2px; background:#dcdcdc; color: black; padding: 20px; margin-bottom: 20px; box-shadow: 10px 10px 20px 0px rgba(41, 41, 41, 0.75);}
+.home .news img { box-shadow: 5px 5px 10px 0px rgba(41, 41, 41, 0.185); }
  
 /* Map */
 .map iframe{ display: block; }
@@ -83,24 +86,28 @@ footer{ background: #000; padding: 15px 0; color: #fcfae1; }
 .blog article p > img{ width: 100%; height: auto; }
 .blog .meta-info p{ line-height: 1em; font-weight: bold; }
 .blog .meta-info p > a{ color: #4285F4; font-weight: normal; } 
+.blog article {border: 1px solid; border-radius: 2px; background:#dcdcdc; color: black; padding: 20px; margin-bottom: 20px; box-shadow: 10px 10px 20px 0px rgba(41, 41, 41, 0.75);}
 
 /* Search Page */
 .search #main{ padding: 25px 0; }
 .search #main form{ margin: 20px 0; }
 
 /* Contact Page */
-.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea{ border: 1px solid #eeeeee; background: #f6f6f6; width: 100%; padding: 10px; }
-.wpcf7 input[type="submit"]{ background: #b9121b; border: 0; color: #ffffff; text-transform: uppercase; width: initial; adding: 15px; }
-
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea{ border: 1px solid #989898; background: #f6f6f6; width: 100%; padding: 10px; border-radius: 2px;}
+.wpcf7 input[type="submit"]{ background: #b9121b; border: 0; color: #ffffff; text-transform: uppercase; width: initial; padding: 15px; border-radius: 2px; }
+.general-template { border: 1px solid; border-radius: 2px; background:#dcdcdc; color: black; padding: 20px; margin-bottom: 20px; box-shadow: 10px 10px 20px 0px rgba(41, 41, 41, 0.75); text-align: center; }
 /************** MISCELLANEOUS *****************/
  /* Comments */
  .comment-respond{ margin: 30px 0; }
  .comment-respond label{ width: 100%; }
  #commentform input[type="submit"]{ background: #b9121b; border: 0; color: #ffffff; text-transform: uppercase; padding: 15px; }
   /* Post Formats */
- .format-image h2 { color: #fff !important; background: whitesmoke; padding: 15px; }
- .format-video h2 { color: #fff !important; background: white; padding: 15px; }
- .format-standard h2 { color: #444 !important; background: white; padding: 15px; }
+ .format-image h2 { color: white !important; background: #221F1F; padding: 15px; }
+ .format-video h2 { color: white !important; background: #221F1F; padding: 15px; }
+ .format-standard h2 { color: white !important; background: #221F1F; padding: 15px; }
+ .format-standard h2 a{ color: white !important; }
+ .format-image h2 a{ color: white !important; }
+ .format-video h2 a{ color: white !important; }
   /* Pagination */
  .blog .pages, .archive .pages, .single .pages{ margin-bottom: 40px; }
  .pagination{ display: block; } 
