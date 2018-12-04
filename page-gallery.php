@@ -7,9 +7,7 @@ Template Name: Gallery Home
 <?php get_header(); ?>
 	<div class="content-area">
 		<main>
-			<section class="slide">
-			<img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-			</section>
+		<?php include 'template-parts/flex-slider.php' ?>
 			<section class="services">
 				<div class="container">
 					<h2><?php _e( 'Our Services', 'wpwordpress' ); ?></h2>
