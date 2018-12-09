@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<button onclick="topFunction()" id="btnTop" title="Voltar ao top">Top</button>
 	<div id="primary">
 		<div id="main">
 			<div class="container">
