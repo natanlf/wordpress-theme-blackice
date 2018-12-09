@@ -30,11 +30,11 @@
 						?>
 						
 							<figure>
-								<?php the_post_thumbnail('large'); ?>
+								<?php the_post_thumbnail(array(1280, 700), array( 'class' => 'img-fluid' )); ?>
 							</figure>
 
 					<?php else: ?>
-							<img class="img-responsive" src="https://unsplash.it/1920/650/?image=<?php echo $cont ?>" title="<?php echo esc_attr_x( 'Placeholder Image', 'title', 'parea' ); ?>">
+							<img class="img-responsive" src="https://unsplash.it/1920/650/?image=<?php echo $cont ?>" title="<?php echo esc_attr_x( 'Placeholder Image', 'title', 'wpblackice' ); ?>">
 					<?php endif; ?>
 
 							<div class="container">

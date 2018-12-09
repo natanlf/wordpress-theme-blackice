@@ -1,5 +1,6 @@
 <!-- Essa página é chamada para exibir um post, quando não havia essa página o template usado era o index.php, acontece isso na falta do single. Vamos usar o template chamado content-single.php -->
 <?php get_header(); ?>
+<button onclick="topFunction()" id="btnTop" title="Voltar ao top">Top</button>
 	<div id="primary">
 		<div id="main">
 			<div class="container">

@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+	<button onclick="topFunction()" id="btnTop" title="Voltar ao top">Top</button>
 	<div class="content-area">
 		<main>
 			<section class="slide">
