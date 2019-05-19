@@ -202,6 +202,7 @@ Responsive CSS
 
 }
 
+/*Botão volta ao topo*/
 #btnTop {
 	display: none;
 	position: fixed;
@@ -220,4 +221,9 @@ Responsive CSS
   
   #btnTop:hover {
 	background-color: #137ee2;
+  }
+
+  /* Float */
+  .f-right {
+	  float: right;
   }
