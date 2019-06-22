@@ -18,6 +18,9 @@ require get_template_directory() . '/inc/customizer.php';
 
 	//top button
 	wp_enqueue_script( 'top-button', get_template_directory_uri(). '/top-button/top-button.js', array('jquery'), null, false);
+
+	//Google icons
+	wp_enqueue_script( 'font-awesome', get_template_directory_uri(). '/fontawesome/fontawesome-free-5.9.0-web/js/all.min.js', array(), '5.0.9', true );
 }
 	add_action('wp_enqueue_scripts', 'load_scripts'); 
 

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<button onclick="topFunction()" id="btnTop" title="Voltar ao top">Top</button>
+
 <!-- Chama nosso cabeçalho customizado. A classe img-fluid faz a imagem ficar responsiva -->
 <img class="img-fluid" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 	<div class="content-area">
